@@ -1,0 +1,707 @@
+* {font-family: 'Cairo', sans-serif;}
+
+html, body {overflow-x: hidden; /* Prevent scroll on narrow devices */}
+
+/*	3. Header */
+/* Start New Css Header */
+@media(min-width:780px) and (max-width: 1700px) {
+			header {
+			  padding-top: 7px;
+			  width: 100%;
+			  height: 150px;
+			  overflow: hidden;
+			  position: fixed;
+			  top: 0;
+			  left: 0;
+			  z-index: 999;
+			  background-color: #f0f2f3;
+			  -webkit-transition: height 0.3s;
+			  -moz-transition: height 0.3s;
+			  -ms-transition: height 0.3s;
+			  -o-transition: height 0.3s;
+			  transition: height 0.3s; }
+			  		  
+			header img#logo {
+				display: inline-block;
+				height: 100%;	
+				width: 100%;
+				-webkit-transition: all 0.3s;
+				-moz-transition: all 0.3s;
+				-ms-transition: all 0.3s;
+				-o-transition: all 0.3s;
+				transition: all 0.3s; }
+			header nav {
+				display: inline-block;
+				float: right; }
+			header nav a {
+				  line-height: 150px;
+				  margin-left: 20px;
+				  color: #9fdbfc;
+				  font-weight: 700;
+				  font-size: 18px;
+				  -webkit-transition: all 0.3s;
+				  -moz-transition: all 0.3s;
+				  -ms-transition: all 0.3s;
+				  -o-transition: all 0.3s;
+				  transition: all 0.3s; }
+				  header nav a:hover {
+					color: white; }
+			header.smaller {
+				height: 79px; 
+				background-color: #fff;
+				border-color: #080808;
+				box-shadow: 0 0 5px rgba(0,0,0,.8);
+				}
+				
+			header.smaller img#logo {
+					  width: 59%;
+				height: 65%; }
+			header.smaller nav a {
+				  line-height: 75px; }				  
+											  
+			#nav {margin-top: 157px;}
+	}
+							/* In Site Nav Edite */
+							/* Start New Css Header */
+							.header .logo {margin-top:0px;}
+							.mini-cart .basket a:first-child:before { padding-right:0px;}
+							.header .logo {text-align: center;}
+							.logo {float: right;}
+							.header-top {border-bottom: none;}
+							.toplinks {float:left; padding-top:0px;}
+							/* End New Css Header */  
+	/*
+	* Custom styles
+	*/
+	
+.kh-product-size{
+	width: 218px;
+	height: 249px;
+}
+.toplinks {
+    line-height: normal;
+    display: inline-block; }
+.toplinks>div>div.myaccount>a:before {
+    content: '\f007';
+    font-family: FontAwesome;
+    font-size: 13px;
+    padding-right: 10px;
+    color: #aaa;
+    padding-left: 5px;
+	}
+
+	.toplinks>div>div.wishlist>a:before {
+		content: '\f004';
+		font-family: FontAwesome;
+		font-size: 13px;
+		padding-right: 6px;
+		color: #aaa;
+		padding-left: 5px;
+	}
+	.toplinks>div>div.check>a:before {
+		content: '\f00c';
+		font-family: FontAwesome;
+		font-size: 13px;
+		padding-right: 6px;
+		color: #aaa;
+		padding-left: 5px;
+	}
+	.toplinks>div>div.demo>a:before {
+		content: '\f09e';
+		font-family: FontAwesome;
+		font-size: 13px;
+		padding-right: 6px;
+		color: #aaa;
+		padding-left: 5px;
+	}
+	.toplinks .links div.block-company-wrapper a:before {
+		content: '\f15b';
+		font-family: FontAwesome;
+		font-size: 13px;
+		padding-left: 4px;
+		padding-top: 2px;
+		float: right;
+		margin-right: 6px;
+		margin-top: -2px;
+		color: #aaa;
+		padding-left: 5px;
+		line-height: 22px;
+	}
+	.toplinks>div>div.login>a:before {
+		content: '\f13e';
+		font-family: FontAwesome;
+		font-size: 13px;
+		padding-right: 6px;
+		color: #aaa;
+		padding-left: 5px;
+
+	}
+	.toplinks>div>div.logout>a:before {
+		content: '\f09c';
+		font-family: FontAwesome;
+		font-size: 13px;
+		padding-right: 6px;
+		color: #aaa;
+		padding-left: 5px;
+	}
+
+
+
+ .mini-cart .basket a:first-child:before {
+ 	color: #aaa;
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	line-height: 40px;
+
+ }
+ 
+ 
+.mini-cart .basket a:hover {
+	
+	color: #f0cc03;
+}
+ .caption.light1 .heading  {font-family: 'Cairo', sans-serif;}
+  .caption.light1 .heading1 {font-family: 'Cairo', sans-serif;}
+	.caption .intro-btn a {font-family: 'Cairo', sans-serif;}
+ 	/*======= Nav Bar=======*/
+	#nav > li {
+    list-style: none;
+    border-bottom: none;
+    display: block;
+    float: right;
+}
+
+
+    #nav li.drop-menu ul {
+    position: absolute;
+    top: 56px;
+    right: 0;
+    background: #fff;
+    padding: 6px 0;
+    border-top: none;
+    border-bottom: 5px #000000 solid;
+    box-shadow: 0 0 20px -5px;
+    width: 220px;
+    text-align: right;
+    z-index: 1000;}
+
+
+
+
+
+		#nav li {
+			text-align: right;
+		}
+		#nav li a {
+			display: block;
+			text-decoration: none;
+		}
+		#nav li a span {
+		}
+		#nav li ul a span {
+		}
+		#nav ul.level1 > li a:before {
+			content: '\f104';
+			font-family: FontAwesome;
+			font-size: 12px;
+			padding-left: 6px;
+			color: #aaa;
+		}
+		#nav > li.drop-menu ul li ul {		right: 220px; }
+  /*======= End Nav Bar =======*/  	/*======= Mobile Menue  =======*/  	ul.topnav li a {		text-align: right;		letter-spacing: 0px;		}  ul.topnav em {	right:	auto ;	left: 0px;}	/*======= End Mobile Menue  =======*/
+    /*======= Slider image =======*/
+	.the-slideshow .tab-pager {
+	right: 35px;
+	}
+	/*======= End Slider image =======*/
+	/*======= shadow off rtl=======*/
+		.col2-left-layout .col-main {
+			z-index: 0;
+		}
+		/*=======end shadow off rtl=======*/
+		/*=======breadcrumbs=======*/
+		.breadcrumbs ul {
+    margin: 0px 0px 0px 15px;
+    padding-right: 15px;
+}
+	/*=======breadcrumbs=======*/
+	/*=======category-sidebar=======*/
+	.category-title h1
+		{font-family: 'Cairo', sans-serif;}
+.side-nav-categories .block-title {
+	font-family: 'Cairo', sans-serif;}
+	.block .block-title
+	{
+	 font-family: 'Cairo', sans-serif;}
+	ul#magicat li, ul.listStyle li {
+		cursor: pointer;
+		display: block;
+		float: left;
+		list-style-type: none;
+		margin: 0 0 1px 0;
+		padding-left: 0px;
+		position: relative;
+		width: 100% !important;
+	}
+	ul#magicat li.level0 span.magicat-cat, ul.listStyle li span {
+		text-align: right;
+		display: inline-block;
+		padding: 5px 0;
+		width: 100%;
+	}
+	ul#magicat li .open-close, .block-layered-nav dt .toggleBtn {
+		display: inline-block;
+		height: 30px;
+		position: absolute;
+		right: 194px;
+		top: 5px;
+		width: 30px;
+	}
+
+/*======End category-sidebar=======*/
+/*======Promo slider-intro=======*/
+.cat-img-title.cat-box {
+		bottom: 38%;
+    right: 20px;
+		left:0;
+    margin: 0;
+    text-align: right;
+    width: 50%;}
+/*======End Promo slider-intro=======*/
+
+/*======Product Sorter=======*/
+.pager .limiter label, .toolbar label {
+    display: inline;
+    float: right;
+    margin-right: 10px;
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight: normal;
+}
+.toolbar .pager {
+	text-align: right;
+}
+.right-arrow {
+    float: left;
+}
+
+#limiter .right-arrow {
+    float: left;
+    margin-right: 6px;
+}
+/*======End Sorter=======*/
+
+/*======Product Data Grid=======*/
+.sale-label {font-family: 'Cairo', sans-serif;}
+.new-label {font-family: 'Cairo', sans-serif;}
+.item-info {width:249px; height:85px;}
+.item .item-inner .item-info .info-inner .item-title a {font-family: 'Cairo', sans-serif; font-size: 13px; white-space: pre-line;}
+.product-block .product-action a {font-family: 'Cairo', sans-serif;}
+.side-nav-categories ul#magicat ul li a:before {
+	content: "\f104";
+    font-family: 'FontAwesome';
+    line-height: 17px;
+    margin-left: 5px;
+    top: 6px;
+}
+
+
+
+/*====== End Product Data Grid=======*/
+
+/*=======Contact icon=======*/
+.contacts-info address {text-align: right;	}
+.add-icon:before {float: right;}
+.phone-icon:before {float: right;}
+.email-icon:before {float: right;}
+	/*=======End Contact icon=======*/
+	/*=======product order text=======*/
+	.product-view .product-shop .add-to-box .add-to-cart label {
+		text-align: right;
+		font-family: 'Cairo', sans-serif;
+	}
+	.product-view .product-shop .add-to-box {
+		float: right;}
+.product-view .short-description h2 { font-family: 'Cairo', sans-serif;}
+.email-friend a:before {padding-left: 5px;}
+.product-view .product-shop .add-to-links .link-wishlist:before {padding-left: 5px;}
+.product-view .product-shop .add-to-links .link-compare:before {padding-left: 5px;}
+.product-tabs a { font-family: 'Cairo', sans-serif;}
+.product-tabs li.active a {font-family: 'Cairo', sans-serif;}
+/*=======End product order text=======*/
+/*======= product slider Buttons=======*/
+.new_title.center { text-align: right;}
+.new_title h2 {font-family: 'Cairo', sans-serif;}
+.slider-items-products .owl-buttons .owl-prev {
+	left: 25px;
+}
+.slider-items-products .owl-buttons .owl-next {
+	left: 65px;
+}
+.brand-logo .slider-items-products .owl-buttons .owl-next {
+	position: absolute;
+	right: -32px;
+	top: 20px;
+}
+ot
+/*======= End product slider Buttons=======*/
+
+/*======= Modal form=======*/
+.group-select li .input-box {
+	float: right;
+}
+.group-select li .input-box {
+	float: right;
+}
+
+/*======= End Modal form=======*/
+
+/*======= About us Page=======*/
+.page-title.new_page_title h2 {
+	text-align: right;
+	font-family: 'Cairo', sans-serif;
+
+}
+
+.block {
+    margin: 0 0 30px;
+    background: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06), 1px 1px #D8DADB, 2px 2px #D8DADB, 3px 3px #D9DBDC, 4px 4px #D9DBDC, 5px 5px #DADCDD, 6px 6px #DADCDD, 7px 7px #DADCDD, 8px 8px #DBDDDE, 9px 9px #DBDDDE, 10px 10px #DCDEDF, 11px 11px #DCDEDF, 12px 12px #DCDEDF, 13px 13px #DDDFE0, 14px 14px #DDDFE0, 15px 15px #DEE0E1, 16px 16px #DEE0E1, 17px 17px #DEE0E1, 18px 18px #DFE1E2, 19px 19px #DFE1E2, 20px 20px #E0E2E3, 21px 21px #E0E2E3;
+}
+
+
+
+.block-company li:before {
+    content: '\f104';
+    font-family: FontAwesome;
+    font-size: 12px;
+    padding-left: 6px;
+    color: #444;
+    display: inline-block;
+    vertical-align: top;
+}
+/*======= End About us Page=======*/
+
+/*======= footer Spec Edit=======*/
+.brand-logo .slider-items-products .owl-buttons a {
+	right:0;
+}
+footer h4 {
+	font-family: 'Cairo', sans-serif;
+}
+
+.footer-middle .links li a:before {
+    content: "\f104";
+    font-family: FontAwesome;
+    font-size: 13px;
+    display: inline-block;
+    cursor: pointer;
+    line-height: 20px;
+    color: #bebebe;
+    margin-left: 5px;
+	}
+/*=======end  footer Spec Edit=======*/
+
+/*======= Dashboard Page=======*/
+.dashboard .welcome-msg {
+	text-align: right;
+}
+.recent-orders .title-buttons strong  {
+    float: right;
+  	font-family: 'Cairo', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    color: #333; }
+.data-table thead th {
+	font-family: 'Cairo', sans-serif;
+}
+
+.data-table tbody th, .data-table tbody td {
+	text-align: right;
+}
+
+.page-title h1, .page-title h2 {
+	font-family: 'Cairo', sans-serif;
+}
+
+.col2-set .col-1 {
+    float: right;
+    width: 48%;
+    text-align: right;
+    border: 0px #336600 solid;
+    padding-top: 0px;
+    padding-bottom: 0px;}
+
+.col2-set .col-2 {
+    float: left;
+    width: 48%;
+    text-align: right; }
+
+		.box-account address {
+
+		    text-align: right;
+
+		}
+
+		.block-account .block-content li:before {
+    content: "\f104";
+    font-family: FontAwesome;
+    font-size: 10px;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    line-height: 16px;
+    color: #333;}
+
+		ol#compare-items li:before {
+    content: '\f104';
+    font-family: FontAwesome;
+    font-size: 12px;
+    padding-left: 6px;
+    color: #444;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ajax-checkout {
+    border: 0 none;
+    margin: 0;
+    padding: 5px 0 5px;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.button-clear:before {
+    content: "\f12d";
+    font-family: FontAwesome;
+    font-size: 13px;
+    padding-left: 5px;}
+
+		.button-compare:before {
+    content: "\f074";
+    font-family: FontAwesome;
+    font-size: 13px;
+    padding-left: 5px;}
+
+
+		.btn-remove1 {
+    display: block;
+    width: 100%;
+    height: 13px;
+    font-size: 0;
+    line-height: 0;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    text-indent: -999em;
+    overflow: hidden;
+    position: absolute;
+    left: -3px;
+    top: 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.button-compare {
+	float: right;
+}
+
+.button-clear {
+	float: left;
+}
+
+/*======= End Dashboard Page=======*/
+/*======= wishlist Page=======*/
+#wishlist-table .product-name {
+	text-align: right;
+	font-family: 'Cairo', sans-serif;
+
+}
+
+button.button.btn-share:before,button.button.btn-add:before,button.button.btn-update:before {
+    padding-left: 8px;}
+
+
+
+/*======= End wishlist Page=======*/
+
+/*======= shopping-cart Page=======*/
+.cart-collaterals h3 {font-family: 'Cairo', sans-serif; }
+button.button.coupon:before,button.button#empty_cart_button:before, button.button.btn-continue:before {
+	padding-left: 8px;
+}
+.crosssel h2 {
+	text-align: right;
+}
+
+
+.cart .totals table td {font-family: 'Cairo', sans-serif; }
+/*======= End shopping-cart Page=======*/
+
+/*======= contact-us Page=======*/
+button.button.submit:before {padding-left: 8px;
+ }
+
+ /*======= End contact-us Page=======*/
+ 
+ /*======= Product Gallery=======*/
+.product-view .previews-list {
+margin-top: 11px;
+background-color:rgba(128, 128, 128, 0.12);
+    border-color: rgba(69, 69, 69, 0.25);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.product-view .previews-list ul {
+margin-top: 11px;
+
+}
+
+
+.product-view .previews-list li {
+    margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+
+
+/*======= End Product Gallery=======*/
+/*======= Login Page=======*/
+.account-login .col2-set .col-1 {
+    float: right;
+    padding-bottom: 0;
+    padding: 0px;
+    text-align: right;
+    width: 48%;
+    min-height: 362px;
+    background: #f7f7f7;
+    border: 1px solid #eaeaea;
+    padding: 45px;
+}
+
+.account-login .col2-set .col-2 {
+	
+	    float: left;
+    padding-bottom: 0;
+    padding: 0 0 0 55px;
+    text-align: right;
+    width: 48%;
+    background: #f7f7f7;
+    padding: 45px;
+	border: 1px solid #eaeaea;}
+
+	.account-login strong { font-family: 'Cairo', sans-serif;}
+	
+	
+/*======= End Login Page=======*/
+
+/*======== Product List===========*/
+
+ol.products-list {
+	float:right;
+}
+.products-list .product-shop {
+    width: 68%;
+    text-align: right;
+    margin-left: 15px;
+    display: inline-block;
+    float: left;
+	font-family: 'Cairo', sans-serif;
+	}
+
+.products-list .product-name {
+    text-align: right;
+	margin: 0px 0 5px;
+	font-family: 'Cairo', sans-serif;
+	}
+.products-list .product-name a {
+	font-family: 'Cairo', sans-serif;
+	
+}
+.products-list .product-shop p {
+	
+		font-family: 'Cairo', sans-serif;
+}
+.products-list .product-shop .desc {
+				font-family: 'Cairo', sans-serif;
+	
+}
+.actions button.button.btn-cart span {
+			font-family: 'Cairo', sans-serif;
+	
+}
+ 
+/*======= End Product List=======*/
+
+.footer-logo {
+    text-align: center; }
+
+	
+	
+/*	25.	Help slider */
+	.help_slider .text {
+		color: #fff;
+		font-size: 15px;
+		font-weight: normal;
+		left: -28px;
+		right: 1px;
+		position: absolute;
+		top: 41px;
+		transform: rotate(90deg);
+		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
+		font-family: 'Cairo', sans-serif;
+	}
+
+	.right-side-content h2 {
+		font-family: 'Cairo', sans-serif;
+	}
+
+	.right-side-content h3 {
+		font-family: 'Cairo', sans-serif;
+
+	}
+
+	.right-side-content p.textcenter {
+		font-family: 'Cairo', sans-serif;
+	}
+
+	.right-side-content .phone-number {
+		font-family: 'Cairo', sans-serif;
+	}
+
+
+	.right-side-content .slider-email form label {
+		float: right;
+	}
+
+	.right-side-content .slider-close {
+		cursor: pointer;
+		height: 56px;
+		right: auto;
+		left:	15px;
+		position: absolute;
+		top: 15px;
+		width: 56px;
+		z-index: 8040;
+	}
+
+	.column {
+		float: right;
+	}
+	
+	.search-icon {
+		z-index:10;
+	}
+/*	25.	End RTL Help slider */
+
+
+	#search {
+		font-family: 'Cairo', sans-serif;
+		padding-right: 74px;
+
+	}
+	
+	

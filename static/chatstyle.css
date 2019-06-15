@@ -1,0 +1,303 @@
+body
+{
+	background-color: #F2F2F2
+}
+/* Start nav */
+.navbar-default
+{
+	background-color: #E62F05
+}
+.navbar-default .navbar-nav>li>a
+{
+	color: #FFF
+}
+/* End nav */
+/* Start Content */
+
+.content #toggle
+{
+	background-color: #E62F05;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 6%;
+    border: none;
+	margin-bottom: 5%;
+	margin-left: 5%
+}
+.content .my-toggle button:hover {
+	cursor:pointer
+}
+.content .shortcuts 
+{
+	padding: 5%;
+	background-color: #FFF;
+	border-radius: 5%;
+	margin-bottom: 5%;
+	display: none;
+}
+.content .shortcuts2
+{
+	text-align: center
+}
+.content .shortcuts h2
+{
+	color: #3F3F3F;
+	font-size: 1.8em
+}
+.content .shortcuts ul
+{
+	list-style: none;
+	padding: 0
+}
+.content .shortcuts li
+{
+	margin-bottom: 5%
+}
+.content .shortcuts ul li a
+{
+	color: #888
+}
+.content .shortcuts ul li .label-default
+{
+	background-color: #E62F05
+}
+.content .shortcuts p
+{
+	text-align: center
+}
+.content .shortcuts img
+{
+	margin-bottom: 7%
+}
+.content .head
+{
+	background-color: #FFF
+}
+.content .head img {
+	width: 70px;
+	height: 70px
+}
+.content .head h3
+{
+	display: inline-block;
+	margin-left: 2%;
+	font-size: 1.4em
+}
+.content .head .label-default
+{
+	background-color: #E62F05;
+	color: #FFF;
+    font-size: 1em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.content .head span 
+{
+	color: #777
+}
+.content .info
+{
+	margin-left: 25%;
+	margin-top: -4%
+}
+.content .info i:first-of-type
+{
+	color: #e2be1f
+}
+.content .info i:nth-of-type(2)
+{
+	color: #777
+}
+.content .info #score
+{
+	margin-right: 10%
+}
+.content .payment span
+{
+	border: 1px solid #a79f9f;
+    padding: 3px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 5%;
+}
+#score, #messages, #coupon
+{
+	color: #DE5E48;
+	border: none
+}
+.content .payment
+{
+	background-color: #FFF;
+	padding-left: 6%;
+	padding-top: 5%
+}
+.content select
+{
+	margin-right: 15%;
+	padding: 3%
+}
+.content select:hover
+{
+	cursor: pointer
+}
+.content .status
+{
+	background-color: #FFF;
+	text-align: center
+}
+.content .status .num
+{
+	color: #DE5E48;
+	font-size: 3em
+}
+.content .status .my-label
+{
+	color: #615c5c;
+	font-size: 2.5em
+}
+.content  #more
+{
+	color: #FFF;
+	background-color: #E62F05;
+	padding: 3%;
+	margin: 3% 42%;
+	border-radius: 5%;
+	border: none
+}
+.content .status-hide
+{
+	display: none
+}
+.content .logistic
+{
+	background-color: #FFF;
+	text-align: center
+}
+.content .logistic .date
+{
+	color:#777
+}
+.content .logistic a
+{
+	color: #000
+}
+.content .logistic-hide
+{
+	display: none
+}
+.content #more2
+{
+	color: #000;
+	margin-left: 45%;
+	cursor: pointer
+}
+/* End content */
+/* start responsive */
+@media only screen and (min-width:450px) {
+	.content .info {
+		margin-top:0%
+	}
+	.content .head .label-default
+	{
+		padding-top: 1%;
+		padding-bottom: 1%
+	}
+	.content .head img {
+		width: 120px;
+		height: 120px;
+		margin-top: 5%
+	}
+	.content .payment {
+		padding-left: 26%
+	}
+	.logistic img
+	{
+		width:60%;
+		margin: auto
+	}
+}
+@media only screen and (min-width:1024px) {
+	.content .shortcuts {
+		display: block
+	}
+	.content #toggle {
+		display: none
+	}
+	#more { display: none }
+	.content .status-hide { display: block }
+	.content .status .my-label { font-size:0.8em; font-weight:bold; font-family: cursive}
+	.content .status { margin-bottom: 6% }
+	.logistic img { width: 12%; margin: 0; display: inline-block; margin-right: 5% }
+	.content .logistic { text-align: left; margin-bottom: 2%; padding: 4% }
+	.break { display: none }
+	.logistic a { float: right; margin-top: 3%  }
+	.hide-padding { padding-left: 0 }
+
+}
+/* end responsive */
+.chatbot{
+  position: fixed;
+  right: 50px;
+  bottom: 0;
+  width: 300px;
+  height:100px;
+  background-color: #636e72;
+  color: white;
+  text-align: left;
+  border-radius: 25px;
+  padding: 20px
+}
+.chatbotresult{
+  position: fixed;
+  right: 50px;
+  bottom: 0;
+  width: 300px;
+  height:400px;
+  background-color: #636e72;
+  color: white;
+  text-align: left;
+  border-radius: 25px;
+  padding: 20px
+}
+.form-div{
+	display: none;
+}
+.form-divresult{
+	display: block;
+}
+.chatform{
+  direction: rtl
+}
+.answerbtn{
+background-color: #fdcb6e
+
+}
+.chatbtn{
+	background-color: #636e72;
+	width: 300px;
+	height: 100px;
+	position:fixed;
+    bottom: 0;
+    right: 50px;
+}
+.chatbtnresult
+{
+	background-color: #636e72;
+	width: 300px;
+	height: 100px;
+	position:fixed;
+    bottom: 0;
+    right: 50px;
+    display: none;
+}
+.close{
+	opacity: 1;
+	float: none;
+	font-size: 30px;
+	display: block;
+    color: #fdcb6e;
+    margin-bottom: 15px;
+}
+/* start my framework */
+.clear-fix { clear: both }
+/* end my framework */

@@ -1,0 +1,28 @@
+
+
+.pro-block .pro1-block ul.top-cat-box li {
+
+	font-family: 'Cairo', 'Open Sans', sans-serif;
+}
+
+.pro-block .pro1-block ul.top-cat-box li:nth-child(1) {
+	background: #31638e;
+}
+.pro-block .pro1-block ul.top-cat-box li:nth-child(2) {
+	background: #ffd20d;
+}
+.pro-block .pro1-block ul.top-cat-box li:nth-child(3) {
+	background: #fff;
+}
+.pro-block .pro1-block ul.top-cat-box li:nth-child(4) {
+	background: #fff;
+}
+
+.pro-block .pro1-block ul.top-cat-box li h2 {
+	font-family: 'Cairo', 'Open Sans', sans-serif;
+}
+
+.pro-block .pro1-block ul.top-cat-box li a {
+	font-family: 'Cairo', 'Open Sans', sans-serif;
+  bottom: 0px;
+}

@@ -1,0 +1,29 @@
+
+
+.pro-block .pro1-block ul.top-cat-box li {
+
+	font-family: 'Cairo', 'Open Sans', sans-serif;
+}
+
+/* .pro-block .pro1-block ul.top-cat-box li:nth-child(1) {
+	background: #183d35;
+}
+.pro-block .pro1-block ul.top-cat-box li:nth-child(2) {
+	background: #ffd20d;
+}
+.pro-block .pro1-block ul.top-cat-box li:nth-child(3) {
+	background: #fff;
+}
+.pro-block .pro1-block ul.top-cat-box li:nth-child(4) {
+	background: #fff;
+}.pro-block .pro1-block ul.top-cat-box li:nth-child(5) {	background: #fff;}.pro-block .pro1-block ul.top-cat-box li:nth-child(6) {	background: #f26e20;}.pro-block .pro1-block ul.top-cat-box li:nth-child(7) {	background: #fff;}
+.pro-block .pro1-block ul.top-cat-box li:nth-child(8) {	background: #fff;} */
+.pro-block .pro1-block ul.top-cat-box li h2 {
+	font-family: 'Cairo', 'Open Sans', sans-serif;
+}
+
+.pro-block .pro1-block ul.top-cat-box li a {
+	font-family: 'Cairo', 'Open Sans', sans-serif;
+  bottom: 50px;
+}.brand-logo-holder {	height:61px;	width:auto;	margin-top:-14px}.brands-logo {
+height: auto;width:100%;}
